@@ -1,0 +1,33 @@
+@import "../../assets/common.css";
+
+/* Frame and stack utilities */
+.frame { composes: frame from "../../assets/common.css"; }
+.vstack { composes: vstack from "../../assets/common.css"; }
+.hstack { composes: hstack from "../../assets/common.css"; }
+
+/* Style tokens */
+.style1 { composes: style-1 from "../../assets/common.css"; }
+.style34 { composes: style-34 from "../../assets/common.css"; }
+.style35 { composes: style-35 from "../../assets/common.css"; }
+.style56 { composes: style-56 from "../../assets/common.css"; }
+.style72 { background: var(--color-eeeeee); border-radius: var(--radius-8); }
+.style73 { border: 1px solid var(--color-42794a); border-radius: var(--radius-8); }
+.style74 { background: var(--color-42794a); border-radius: var(--radius-4); }
+.style75 { border-radius: var(--radius-8); }
+.style78 { border: 1.33px solid var(--color-eeeeee); border-radius: var(--radius-10); }
+.style137 { composes: style-137 from "../../assets/common.css"; }
+
+/* Typography */
+.typo67 { font-family: var(--font-gilroy); font-size: 16px; font-weight: 500; line-height: 18px; color: var(--color-252525); }
+.typo75 { font-family: var(--font-gilroy); font-size: 14px; font-weight: 500; color: var(--color-999999); }
+.typo82 { font-family: var(--font-gilroy); font-size: 20px; font-weight: 600; line-height: 24px; color: var(--color-252525); }
+.typo93 { composes: typo-93 from "../../assets/common.css"; }
+.typo94 { composes: typo-94 from "../../assets/common.css"; }
+.typo96 { composes: typo-96 from "../../assets/common.css"; }
+.typo97 { composes: typo-97 from "../../assets/common.css"; }
+.typo98 { composes: typo-98 from "../../assets/common.css"; }
+.typo99 { composes: typo-99 from "../../assets/common.css"; }
+.typo100 { composes: typo-100 from "../../assets/common.css"; }
+.typo101 { composes: typo-101 from "../../assets/common.css"; }
+.typo102 { composes: typo-102 from "../../assets/common.css"; }
+.typo103 { composes: typo-103 from "../../assets/common.css"; }

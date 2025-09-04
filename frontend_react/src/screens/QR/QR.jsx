@@ -1,18 +1,24 @@
 import React from 'react';
 import styles from './QR.module.css';
-import tokens from '../Home/tokens.module.css';
+import tokens from './tokens.module.css';
+import QRDisplay from './QRDisplay';
+import QRManagement from './QRManagement';
 
 /**
- * QR screen component that will handle QR code related functionality.
+ * Manage QR screen component that handles QR code display and management functionality.
+ * Preserves the Figma layout and style tokens while providing interactive features.
  */
+// PUBLIC_INTERFACE
 export default function QR() {
   return (
-    <div className={`${tokens.frame} ${tokens.homeCanvas}`}>
-      <main className={`${styles.main} ${tokens.frame}`}>
-        <section className={`${styles.qrSection} ${tokens.frame}`}>
-          <h1 className={tokens.typo87}>QR Code Management</h1>
-          <p className={tokens.typo88}>This section will contain QR code functionality</p>
-        </section>
+    <div className={`${styles.manageQrCanvas} ${tokens.frame}`}>
+      <main className={styles.main}>
+        <h1 className={`${styles.pageTitle} ${tokens.typo96}`}>Manage QR/POS</h1>
+        
+        <div className={styles.contentGrid}>
+          <QRDisplay />
+          <QRManagement />
+        </div>
       </main>
     </div>
   );
