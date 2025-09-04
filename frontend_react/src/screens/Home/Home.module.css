@@ -1,0 +1,97 @@
+@import "../../assets/home-2535-46.css";
+
+/* Bridge classes to ensure CSS Modules can reference the global classes from the imported CSS */
+.header { composes: header from "../../assets/home-2535-46.css"; }
+.brandGroup { composes: brand-group from "../../assets/home-2535-46.css"; }
+.brandEmblem { composes: brand-emblem from "../../assets/home-2535-46.css"; }
+.brandWordmark { composes: brand-wordmark from "../../assets/home-2535-46.css"; }
+.pay { composes: pay from "../../assets/home-2535-46.css"; }
+.business { composes: business from "../../assets/home-2535-46.css"; }
+
+.emblemVec { composes: emblem-vec from "../../assets/home-2535-46.css"; }
+.vecA { composes: vec-a from "../../assets/home-2535-46.css"; }
+.vecB { composes: vec-b from "../../assets/home-2535-46.css"; }
+.vecC { composes: vec-c from "../../assets/home-2535-46.css"; }
+.vecD { composes: vec-d from "../../assets/home-2535-46.css"; }
+.vecE { composes: vec-e from "../../assets/home-2535-46.css"; }
+.vecF { composes: vec-f from "../../assets/home-2535-46.css"; }
+
+.headerRight { composes: header-right from "../../assets/home-2535-46.css"; }
+.avatar { composes: avatar from "../../assets/home-2535-46.css"; }
+.nameStack { composes: name-stack from "../../assets/home-2535-46.css"; }
+.chev { composes: chev from "../../assets/home-2535-46.css"; }
+.chevIcon { composes: chev-icon from "../../assets/home-2535-46.css"; }
+
+.sidebar { composes: sidebar from "../../assets/home-2535-46.css"; }
+.navStack { composes: nav-stack from "../../assets/home-2535-46.css"; }
+.navItem { composes: nav-item from "../../assets/home-2535-46.css"; }
+.navIcon { composes: nav-icon from "../../assets/home-2535-46.css"; }
+.homeIcon { composes: home-icon from "../../assets/home-2535-46.css"; }
+.qrIcon { composes: qr-icon from "../../assets/home-2535-46.css"; }
+.historyIcon { composes: history-icon from "../../assets/home-2535-46.css"; }
+.profileIcon { composes: profile-icon from "../../assets/home-2535-46.css"; }
+.navCaret { composes: nav-caret from "../../assets/home-2535-46.css"; }
+
+.sidebarBottom { composes: sidebar-bottom from "../../assets/home-2535-46.css"; }
+.bharatConnectLogo { composes: bharat-connect-logo from "../../assets/home-2535-46.css"; }
+.bvec { composes: bvec from "../../assets/home-2535-46.css"; }
+.b1 { composes: b1 from "../../assets/home-2535-46.css"; }
+.b2 { composes: b2 from "../../assets/home-2535-46.css"; }
+.b3 { composes: b3 from "../../assets/home-2535-46.css"; }
+.b4 { composes: b4 from "../../assets/home-2535-46.css"; }
+.b5 { composes: b5 from "../../assets/home-2535-46.css"; }
+.b6 { composes: b6 from "../../assets/home-2535-46.css"; }
+.b7 { composes: b7 from "../../assets/home-2535-46.css"; }
+.b8 { composes: b8 from "../../assets/home-2535-46.css"; }
+.b9 { composes: b9 from "../../assets/home-2535-46.css"; }
+.b10 { composes: b10 from "../../assets/home-2535-46.css"; }
+.b11 { composes: b11 from "../../assets/home-2535-46.css"; }
+.b12 { composes: b12 from "../../assets/home-2535-46.css"; }
+.b13 { composes: b13 from "../../assets/home-2535-46.css"; }
+.b14 { composes: b14 from "../../assets/home-2535-46.css"; }
+
+.main { composes: main from "../../assets/home-2535-46.css"; }
+
+.hero { composes: hero from "../../assets/home-2535-46.css"; }
+.heroGraphic { composes: hero-graphic from "../../assets/home-2535-46.css"; }
+.heroCopy { composes: hero-copy from "../../assets/home-2535-46.css"; }
+.hg { composes: hg from "../../assets/home-2535-46.css"; }
+.hv1 { composes: hv1 from "../../assets/home-2535-46.css"; }
+.hv2 { composes: hv2 from "../../assets/home-2535-46.css"; }
+.hv3 { composes: hv3 from "../../assets/home-2535-46.css"; }
+.hv4 { composes: hv4 from "../../assets/home-2535-46.css"; }
+.hv5 { composes: hv5 from "../../assets/home-2535-46.css"; }
+.hv6 { composes: hv6 from "../../assets/home-2535-46.css"; }
+
+.stats { composes: stats from "../../assets/home-2535-46.css"; }
+.statCard { composes: stat-card from "../../assets/home-2535-46.css"; }
+
+.dual { composes: dual from "../../assets/home-2535-46.css"; }
+.dualSecond { composes: dual from "../../assets/home-2535-46.css"; }
+.panel { composes: panel from "../../assets/home-2535-46.css"; }
+.panelTitle { composes: panel-title from "../../assets/home-2535-46.css"; }
+.panelBody { composes: panel-body from "../../assets/home-2535-46.css"; }
+.divider { composes: divider from "../../assets/home-2535-46.css"; }
+.panelCta { composes: panel-cta from "../../assets/home-2535-46.css"; }
+
+.qrPreview { composes: qr-preview from "../../assets/home-2535-46.css"; }
+
+.panelHead { composes: panel-head from "../../assets/home-2535-46.css"; }
+.panelList { composes: panel-list from "../../assets/home-2535-46.css"; }
+.row { composes: row from "../../assets/home-2535-46.css"; }
+
+.chevNarrow { composes: chev-narrow from "../../assets/home-2535-46.css"; }
+
+.donut { composes: donut from "../../assets/home-2535-46.css"; }
+.donutBg { composes: donut-bg from "../../assets/home-2535-46.css"; }
+.donutFill { composes: donut-fill from "../../assets/home-2535-46.css"; }
+.donutLabel { composes: donut-label from "../../assets/home-2535-46.css"; }
+
+/* Positioning adjustments for second dual block as separate module class */
+.dualSecond {
+  position: absolute;
+  left: 0;
+  top: 984px;
+  width: 1000px;
+  height: 396px;
+}

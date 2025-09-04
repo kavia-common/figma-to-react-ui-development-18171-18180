@@ -1,0 +1,60 @@
+@import "../../assets/common.css";
+
+/* Map global utility classes from assets/common.css to CSS Module exports.
+   This enables usage like tokens.vstack, tokens.typo87, etc. */
+
+.frame:global { }
+.frame { composes: frame from "../../assets/common.css"; }
+.vstack { composes: vstack from "../../assets/common.css"; }
+.hstack { composes: hstack from "../../assets/common.css"; }
+
+.shadow0 { composes: shadow-0 from "../../assets/common.css"; }
+.shadow1 { composes: shadow-1 from "../../assets/common.css"; }
+.shadow2 { composes: shadow-2 from "../../assets/common.css"; }
+.shadow3 { composes: shadow-3 from "../../assets/common.css"; }
+.shadow4 { composes: shadow-4 from "../../assets/common.css"; }
+
+.radius8 { composes: radius-8 from "../../assets/common.css"; }
+.radius10 { composes: radius-10 from "../../assets/common.css"; }
+.radius12 { composes: radius-12 from "../../assets/common.css"; }
+.radius14 { composes: radius-14 from "../../assets/common.css"; }
+.radius16 { composes: radius-16 from "../../assets/common.css"; }
+.radius20 { composes: radius-20 from "../../assets/common.css"; }
+.radius30 { composes: radius-30 from "../../assets/common.css"; }
+.radius40 { composes: radius-40 from "../../assets/common.css"; }
+.radius64 { composes: radius-64 from "../../assets/common.css"; }
+
+/* Style refs */
+.style1 { composes: style-1 from "../../assets/common.css"; }
+.style10 { composes: style-10 from "../../assets/common.css"; }
+.style23 { composes: style-23 from "../../assets/common.css"; }
+.style34 { composes: style-34 from "../../assets/common.css"; }
+.style35 { composes: style-35 from "../../assets/common.css"; }
+.style56 { composes: style-56 from "../../assets/common.css"; }
+.style60 { composes: style-60 from "../../assets/common.css"; }
+.style61 { composes: style-61 from "../../assets/common.css"; }
+.style62 { composes: style-62 from "../../assets/common.css"; }
+.style63 { composes: style-63 from "../../assets/common.css"; }
+.style137 { composes: style-137 from "../../assets/common.css"; }
+
+/* Typography */
+.typo83 { composes: typo-83 from "../../assets/common.css"; }
+.typo84 { composes: typo-84 from "../../assets/common.css"; }
+.typo85 { composes: typo-85 from "../../assets/common.css"; }
+.typo86 { composes: typo-86 from "../../assets/common.css"; }
+.typo87 { composes: typo-87 from "../../assets/common.css"; }
+.typo88 { composes: typo-88 from "../../assets/common.css"; }
+.typo89 { composes: typo-89 from "../../assets/common.css"; }
+.typo90 { composes: typo-90 from "../../assets/common.css"; }
+.typo91 { composes: typo-91 from "../../assets/common.css"; }
+.typo93 { composes: typo-93 from "../../assets/common.css"; }
+.typo94 { composes: typo-94 from "../../assets/common.css"; }
+.typo95 { composes: typo-95 from "../../assets/common.css"; }
+.typo96 { composes: typo-96 from "../../assets/common.css"; }
+.typo98 { composes: typo-98 from "../../assets/common.css"; }
+
+/* Buttons/cta */
+.cta { composes: cta from "../../assets/common.css"; }
+
+/* Page scaffolding for Home */
+.homeCanvas { composes: home-canvas from "../../assets/common.css"; }
