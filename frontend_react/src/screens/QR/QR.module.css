@@ -1,0 +1,10 @@
+.main {
+  padding: 40px;
+}
+
+.qrSection {
+  background: var(--bg-secondary);
+  border-radius: var(--radius-12);
+  padding: 32px;
+  margin-top: 88px;
+}
