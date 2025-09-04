@@ -1,0 +1,84 @@
+:root {
+  /* Leverage existing theme variables if set in App.css */
+  --sidebar-bg: var(--kavia-dark, #1A1A1A);
+  --sidebar-fg: var(--text-color, #ffffff);
+  --sidebar-fg-muted: var(--text-secondary, rgba(255, 255, 255, 0.7));
+  --sidebar-border: var(--border-color, rgba(255, 255, 255, 0.1));
+  --sidebar-accent: var(--kavia-orange, #E87A41);
+}
+
+.sidebar {
+  width: 240px;
+  min-height: 100vh;
+  background: var(--sidebar-bg);
+  color: var(--sidebar-fg);
+  padding: 16px 12px;
+  box-sizing: border-box;
+  border-right: 1px solid var(--sidebar-border);
+  position: sticky;
+  top: 0;
+}
+
+.sidebar__brand {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 10px 16px 10px;
+  margin-bottom: 8px;
+  border-bottom: 1px solid var(--sidebar-border);
+}
+
+.sidebar__logo {
+  font-size: 20px;
+}
+
+.sidebar__title {
+  font-weight: 600;
+  letter-spacing: 0.3px;
+  color: var(--sidebar-fg);
+}
+
+.sidebar__nav {
+  margin-top: 8px;
+}
+
+.sidebar__list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar__item + .sidebar__item {
+  margin-top: 4px;
+}
+
+.sidebar__link {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 12px;
+  color: var(--sidebar-fg);
+  text-decoration: none;
+  border-radius: 8px;
+  transition: background 0.2s ease, color 0.2s ease;
+}
+
+.sidebar__link:hover {
+  background: rgba(255, 255, 255, 0.06);
+}
+
+.sidebar__link.is-active {
+  background: rgba(255, 255, 255, 0.08);
+  outline: 1px solid var(--sidebar-border);
+}
+
+.sidebar__icon {
+  width: 20px;
+  text-align: center;
+  opacity: 0.9;
+}
+
+.sidebar__text {
+  font-size: 14px;
+  color: var(--sidebar-fg);
+}
