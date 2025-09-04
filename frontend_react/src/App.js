@@ -6,6 +6,36 @@ import Sidebar from './components/Sidebar';
 import About from './pages/About';
 import Support from './pages/Support';
 
+/**
+ * PUBLIC_INTERFACE
+ * NameInput: Input field for entering the user's name, managed by internal state.
+ */
+function NameInput() {
+  const [name, setName] = useState('');
+
+  // Optionally, you can provide a callback or effect here, or expose `name` as needed
+
+  return (
+    <input
+      type="text"
+      id="name-input"
+      placeholder="Enter your name"
+      value={name}
+      onChange={e => setName(e.target.value)}
+      style={{
+        padding: '8px 12px',
+        fontSize: '1rem',
+        borderRadius: '5px',
+        border: '1px solid var(--border-color, #ccc)',
+        width: '100%',
+        maxWidth: '300px',
+        background: 'var(--secondary, #f2f2f2)',
+        color: 'var(--kavia-dark, #1A1A1A)'
+      }}
+    />
+  );
+}
+
 // PUBLIC_INTERFACE
 function App() {
   const [theme, setTheme] = useState('light');
@@ -44,6 +74,13 @@ function App() {
                 <div className="container" style={{ padding: '24px' }}>
                   <h2 className="title">Home</h2>
                   <p className="description">Welcome! Use the sidebar to navigate. The new Support page is available.</p>
+                  {/* Name input field added below */}
+                  <div style={{ marginTop: '24px' }}>
+                    <label htmlFor="name-input" className="subtitle" style={{ display: 'block', marginBottom: '8px' }}>
+                      Name
+                    </label>
+                    <NameInput />
+                  </div>
                 </div>
               } />
               <Route path="/about" element={<About />} />
