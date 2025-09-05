@@ -8,9 +8,8 @@ import './sidebar.css';
  * Includes a new 'Support' item as requested.
  */
 function Sidebar() {
-  return {
-    /* Using semantic aside for sidebar navigation */
-  } && (
+  // Using semantic aside for sidebar navigation
+  return (
     <aside className="sidebar" aria-label="Sidebar Navigation">
       <div className="sidebar__brand">
         <span className="sidebar__logo" aria-hidden="true">🧭</span>

@@ -2,9 +2,9 @@ import React, { useState, useEffect } from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import logo from './logo.svg';
 import './App.css';
-import Sidebar from './components/Sidebar';
-import About from './pages/About';
-import Support from './pages/Support';
+import Sidebar from './components/Sidebar.js';
+import About from './pages/About.js';
+import Support from './pages/Support.js';
 
 /**
  * PUBLIC_INTERFACE
